@@ -1,0 +1,94 @@
+/********************************/
+/******* XS MOBILE FIRST  *******/
+
+
+/* GENERICI */
+
+
+/* HEADER  */
+
+
+/* MAIN CONTENT  */
+
+
+/* FOOTER  */
+
+
+/*************************************/
+/******* SM RESPONSIVE: TABLET  *******/
+@media screen and (max-width: 480px) {
+
+    /* GENERICI */
+    
+    
+    /* HEADER  */
+    
+    
+    /* MAIN CONTENT  */
+    
+    
+    /* FOOTER  */
+}
+
+
+
+
+/**************************************/
+/******* MD RESPONSIVE: TABLET   *******/
+@media screen and (min-width: 576px) and (max-width: 767px) {
+ 
+    
+    
+    /* GENERICI */
+    
+    
+    /* HEADER  */
+    
+    
+    /* MAIN CONTENT  */
+    
+    
+    /* FOOTER  */
+    
+}
+
+
+/******************************************/
+/******* LG - RESPONSIVE: DEKSTOP   *******/
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+    
+    
+    /* GENERICI */
+    
+    
+    /* HEADER  */
+    
+    
+    /* MAIN CONTENT  */
+    
+    
+    /* FOOTER  */
+    
+}
+
+
+/************************************************/
+/******* XG - RESPONSIVE: LARGE DEKSTOP   *******/
+@media screen and (min-width: 992px) {
+
+    
+    
+    /* GENERICI */
+    
+    
+    /* HEADER  */
+    
+    
+    
+    /* MAIN CONTENT  */
+    
+    
+    /* FOOTER  */
+    
+}
