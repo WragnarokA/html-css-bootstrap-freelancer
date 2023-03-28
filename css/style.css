@@ -1,22 +1,7 @@
-/********************************/
-/******* XS MOBILE FIRST  *******/
-
-
-/* GENERICI */
-
-
-/* HEADER  */
-
-
-/* MAIN CONTENT  */
-
-
-/* FOOTER  */
-
 
 /*************************************/
-/******* SM RESPONSIVE: TABLET  *******/
-@media screen and (max-width: 480px) {
+/******* XS RESPONSIVE:  *******/
+@media screen and (max-width: 575px) {
 
     /* GENERICI */
     
@@ -34,8 +19,8 @@
 
 
 /**************************************/
-/******* MD RESPONSIVE: TABLET   *******/
-@media screen and (min-width: 576px) and (max-width: 767px) {
+/******* SM RESPONSIVE:  *******/
+@media screen and (min-width: 576px)  {
  
     
     
@@ -54,8 +39,8 @@
 
 
 /******************************************/
-/******* LG - RESPONSIVE: DEKSTOP   *******/
-@media screen and (min-width: 768px) and (max-width: 991px) {
+/******* MD- RESPONSIVE:    *******/
+@media screen and (min-width: 768px)  {
 
     
     
@@ -74,7 +59,7 @@
 
 
 /************************************************/
-/******* XG - RESPONSIVE: LARGE DEKSTOP   *******/
+/******* LG - RESPONSIVE:*******/
 @media screen and (min-width: 992px) {
 
     
@@ -92,3 +77,64 @@
     /* FOOTER  */
     
 }
+
+/************************************************/
+/******* XL - RESPONSIVE:    *******/
+@media screen and (min-width: 1200px) {
+
+    
+    
+    /* GENERICI */
+    
+    
+    /* HEADER  */
+    .nav-bar{
+        height: 90px;
+    }
+    
+    /* MAIN CONTENT  */
+    .jumbotron{min-height: 600px;}
+    .jumbotron div {min-height: 600px;}
+
+    .portfolio  {min-height: 870px;}
+    .portfolio div {min-height: 870px; }
+
+    .about {min-height: 500px;}
+    .about div {min-height: 500px;}
+
+    .contact-me {min-height: 700px;}
+    .contact-me div {min-height: 700px;}
+
+    .social {min-height: 700px;}
+    .social div {min-height: 700px;}
+
+    .end {min-height: 90px;}
+    .end div {min-height: 90px;}
+        
+
+    
+    
+    /* FOOTER  */
+    
+}
+
+/************************************************/
+/******* XXL- RESPONSIVE: LARGE DEKSTOP   *******/
+@media screen and (min-width: 1400px) {
+
+    
+    
+    /* GENERICI */
+    
+    
+    /* HEADER  */
+    
+    
+    
+    /* MAIN CONTENT  */
+    
+    
+    /* FOOTER  */
+    
+}
+
