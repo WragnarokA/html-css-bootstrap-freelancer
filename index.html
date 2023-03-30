@@ -8,48 +8,161 @@
         <link rel="stylesheet" href="./css/utilities.css">
         <link rel="stylesheet" href="./css/style.css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
     </head>
     <body>
         <header>
-            <nav class="nav-bar container-fluit row bg-vb fg-white centro">
+            <nav class="navbar navbar-expand-lg bg-vb fg-white  ">
+                <div class="container-fluid ">
+                  <a class="start-b   navbar-brand col-md-6" href="#">START BOOTSTRAP</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse col-md-6 " id="navbarText">
+                    <span class="centro p-1navbar-text col-md-2 offset-md-3">PORTFOLIO</span>
+                    <span class="centro p-1navbar-text col-md-2 ">ABOUT</span>
+                    <span class="centro p-1navbar-text col-md-2 ">CONTACT</span>
+                  </div>
+                </div>
+              </nav>
+            <!-- <nav class="navbar  bg-vb fg-white ">
                 <div class="col-6 "> 
-                    <div class="offset-4 col-4 fs_15 "><strong>START BOOTSTRAP</strong></div>
+                    <div class="offset-4 col-4 col--8 offset-md-2 fs_15 "><strong>START BOOTSTRAP</strong></div>
                 </div>
-                <div class="col-6 ">
-                    <div class="row col-4 offset-4">
-                        <div class="col-4 row fs_07 centro">PORTFOLIO</div>
-                        <div class="col-4 row fs_07 centro">ABOUT</div>
-                        <div class="col-4 row fs_07 centro">CONTACT</div>
-                    </div>
+                
+                <div class="col-6 row ">
+                        <div class="col-xxl-2 offset-xxl-3 row col-md-3 offset-md-2 fs_08 centro">PORTFOLIO</div>
+                        <div class="col-xxl-2 row col-md-3 fs_08 centro">ABOUT</div>
+                        <div class="col-xxl-2 row col-md-3 fs_08 centro">CONTACT</div>
                 </div>
-            </nav>
+            </nav> -->
         </header>
         <main>
-            <div class="jumbotron container-fluit bg-verdemarin">
-                <div class="col-4 offset-4 bg-white"> immagine</div>
+            <div class="jumbotron container-fluit bg-verdemarin ">
+                <div class="col-xs-12  col-md-10 offset-md-1 centro flex-column   ">
+                    <img class="" style="width: 17rem;" src="./img/avatar.svg" alt="">
+                    <ul class="lst centro flex-column p-0 fg-white ">
+                        <h2 class=" pt_2 h1"><strong> START BOOTSTRAP</strong></H2>
+                        <li class=" pt_1 h4" ><span>____________</span> <i class="fa-solid fa-star"></i> <span>____________</span> </li>
+                        <li class="graphic  ">GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</li>
+                    </ul>
+                </div>
             </div>
     
-            <div class="portfolio container-fluit fg-grey">
-                <div class="col-8 offset-2 bg-green"></div>
+            <div class="portfolio container-fluit fg-white ">
+                <div class="col-8 offset-2 ">
+
+                    <span class=" row portfolio-left fg-vb ">
+                        <span class="centro h1 pt_3"><strong> PORTFOLIO</strong></span>
+                        <span class="centro h5 pt_1"> <span class="line">____________</span> <i class="fa-solid fa-star"></i> <span>____________</span></span>
+                    </span>
+                    
+                    <span class=" portofolio-right row ">
+                        <img class="mt-4 rounded-5 col-md-6 col-xl-4" src="./img/cabin.png" alt="">
+                        <img class="mt-4 rounded-5 col-md-6 col-xl-4" src="./img/cake.png" alt="">
+                        <img class="mt-4 rounded-5 col-md-6 col-xl-4" src="./img/circus.png" alt="">
+                        <img class="mt-4 rounded-5 col-md-6 col-xl-4" src="./img/game.png" alt="">
+                        <img class="mt-4 rounded-5 col-md-6 col-xl-4" src="./img/safe.png" alt="">
+                        <img class="mt-4 rounded-5 col-md-6 col-xl-4" src="./img/submarine.png" alt="">
+                                                
+                    </span>
+                </div>
             </div>
     
-            <div class="about container-fluit bg-verdemarin">
-                <div class="col-6 offset-3 bg-green"></div>
+            <div class="about container-fluit bg-verdemarin center">
+
+                <span class=" row fg-white ">
+                    <span class="centro h1 pt_3"><strong> ABOUT</strong></span>
+                    <span class="centro h5 pt_1"> <span class="line">____________</span> <i class="fa-solid fa-star"></i> <span>____________</span></span>
+                </span>
+                <div class=" row pt_2 col-8 offset-2 col-md-6 offset-md-3 fg-white">
+                    <span class="about-botton col-md-6 col-xs-12">Freelancer is a free bootstrap theme created by Start
+                        Bootstrap. The download includes the complete
+                        source files including HTML, CSS, and JavaScript as
+                        well as optional LESS stylesheets for easy
+                        customization.
+                    </span>
+                    <span class="about-botton col-md-6 col-xs-12">Whether you're a student looking to showcase your
+                        work, a professional looking to attract clients, or a
+                        graphic artist looking to share your projects, this
+                        template is the perfect starting point!
+                    </span>
+                </div>
+                <span class="centro">
+                    <button  type="button" class="btn btn-outline-light centro"><i class="fa-solid fa-download"></i> Download</button>
+                </span>
+
             </div>
     
             <div class="contact-me container-fluit ">
-                <div class="col-6 offset-3 bg-red"></div>
+                <span class=" row fg-gb ">
+                    <span class="centro h1 pt_3"><strong> CONTACT ME</strong></span>
+                    <span class="centro h5 pt_1"> <span class="line">____________</span> <i class="fa-solid fa-star"></i> <span>____________</span></span>
+                </span>
+                <div class="contact col-6 offset-3 ">
+                    <form class="row g-3">
+                        <div class="col-12">
+                          <label for="inputAddress" class="form-label">Name</label>
+                          <input type="text" class="form-control" id="inputAddress" placeholder="">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="inputEmail4" class="form-label">Email Address</label>
+                            <input type="email" class="form-control" id="inputEmail4">
+                        </div>
+                        <div class="col-12">
+                          <label for="inputAddress2" class="form-label">Phone Number</label>
+                          <input type="text" class="form-control" id="inputAddress2" placeholder="">
+                        </div>
+                        <div class="mb-3">
+                            <label for="validationTextarea" class="form-label">Textarea</label>
+                            <textarea class="form-control" id="validationTextarea" placeholder="Please enter a message in the textarea." required></textarea>
+                            <div class="invalid-feedback">
+                              
+                            </div>
+                          </div>
+                        <div class="col-12 ">
+                          <button type="submit" class="btn  btn-light  ">Send</button>
+                        </div>
+                      </form>
+                </div>
             </div>
             
         </main>
         <footer>
             <div class="social container-fluit bg-gb">
-                <div class="col-8 offset-2 bg-red"></div>
+                <div class=" row fg-white col-12 col-md-12 col-lg-10 offset-lg-1 ">
+                    
+                    <span class="centro col-12  col-md-4  ">
+                        <ul class="lst  text-center">
+                            <li>LOCATION</li>
+                            <li>2215 John Daniel Drive Clark, MO</li>
+                            <li>54243</li>                    
+                        </ul>
+
+                    </span>
+
+                    <span class="centro col-12  col-md-4 ">
+                        <ul class="lst text-center ">
+                            <li>AROUND THE WEB</li>
+                            <li><i class="bi bi-facebook"></i><i class="bi bi-google"></i><i class="bi bi-twitter"></i><i class="bi bi-linkedin"></i></li>
+                        </ul>
+                    </span>
+                    </span>
+
+                    <span class="centro col-12  col-md-4">
+                        <ul class="lst text-center ">
+                            <li>ABOUT FREELANCER</li>
+                            <li>Freelance is a free to use, open source</li>
+                            <li>Bootstrap theme created by <a href=""Start></a> </li>  
+                            <li><a href=""Bootstrap.></a> </li>                  
+                        </ul>
+
+                    </span>
+                </div>
             </div>
 
-
-            <div class="end container-fluit bg-vb">
-                <div class="col-4 offset-4 bg-red"></div>
+            <div class="end container-fluit bg-vb fg-white ">
+                <div class="col-4 offset-4 centro">Copyright C Your Website 2019</div>
             </div>
             
             
@@ -59,6 +172,8 @@
                 
             
             
+
+
             
             
             

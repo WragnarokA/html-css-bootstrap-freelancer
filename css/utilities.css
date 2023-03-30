@@ -25,6 +25,8 @@
 .bg-blu {background-color: blue;}
 
 .fg-black      {color: black;}
+.fg-vb     {color: #2c3e50;}
+.fg-gb      {color: #3a546d;}
 .fg-white      {color: white;}
 .fg-lightgrey  {color: lightgray;}
 .fg-grey       {color: #6b6b6b;}
@@ -33,7 +35,7 @@
 /************************************/
 /************** FONT SIZE ***************/
 .fs_05{font-size:0.5rem;}
-.fs_07{font-size:0.7rem;}
+.fs_08{font-size:0.8rem;}
 .fs_15{font-size:1.5rem;}
 .fs_2{font-size: 2rem;}
 .fs_3{font-size: 3rem;}
@@ -78,11 +80,28 @@
 }
 
 /******** PADDING **********/
-.pt-05 {padding-top: 0.5rem;}
-.pt-3 {padding-top: 3rem;}
-.pt-6 {padding-top: 6rem;}
-.pt-11 {padding-top: 11rem;}
-.pt-14 {padding-top: 14rem;}
+.pt_05 {padding-top: 0.5rem;}
+.pt_1 {padding-top: 1rem;}
+.pt_2 {padding-top: 2rem;}
+.pt_3 {padding-top: 3rem;}
+.pt_4 {padding-top: 4rem;}
+.pt_5 {padding-top: 5rem;}
+.pt_6 {padding-top: 6rem;}
+.pt_11 {padding-top: 11rem;}
+.pt_14 {padding-top: 14rem;}
+
+.pb_05 {padding-bottom: 0.5rem;}
+
+.pl_14 {padding-left: 14rem;}
+
+.px-1 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.px_5 {
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
 
 .pa-1 {
     padding-top: 1rem;

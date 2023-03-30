@@ -1,4 +1,40 @@
+    /* GENERICI */
+    
+    
+    /* HEADER  */
+    nav {
+        color: white !important;
+    }
 
+    /* MAIN CONTENT  */
+    .jumbotron{min-height: 580px;}
+    .jumbotron div {min-height: 580px;}
+
+
+
+    .portfolio  {min-height: 770px;}
+    .portfolio div {min-height: 770px; }
+    
+
+
+
+    .about {min-height: 530px;}
+    .about div {min-height: 240px;}
+
+    .contact-me {min-height: 670px;}
+    .contact {min-height: 670px;}
+    
+
+    .social {min-height: 230px;}
+    .social div {min-height: 230px;}
+
+    .end {min-height: 110px;}
+    .end div {min-height: 110px;}
+        
+
+    
+    
+    /* FOOTER  */
 /*************************************/
 /******* XS RESPONSIVE:  *******/
 @media screen and (max-width: 575px) {
@@ -10,6 +46,10 @@
     
     
     /* MAIN CONTENT  */
+    .about{margin-top: 3rem;}
+    .about-p{padding: 2rem 0.5rem ;}
+    .about-botton{ padding-top: 1rem;}
+
     
     
     /* FOOTER  */
@@ -31,6 +71,10 @@
     
     
     /* MAIN CONTENT  */
+    .graphic{font-size: 1.3rem;}
+    .about{margin-top: 3rem;}
+    .about-p{padding: 2rem 0.5rem ;}
+    .about-botton{ padding-top: 1rem;}
     
     
     /* FOOTER  */
@@ -68,7 +112,9 @@
     
     
     /* HEADER  */
-    
+    .start-b{padding-left: 10rem;}
+
+
     
     
     /* MAIN CONTENT  */
@@ -88,28 +134,11 @@
     
     
     /* HEADER  */
-    .nav-bar{
-        height: 90px;
-    }
+
     
     /* MAIN CONTENT  */
-    .jumbotron{min-height: 600px;}
-    .jumbotron div {min-height: 600px;}
+    .portfolio  {min-height: 700px;}
 
-    .portfolio  {min-height: 870px;}
-    .portfolio div {min-height: 870px; }
-
-    .about {min-height: 500px;}
-    .about div {min-height: 500px;}
-
-    .contact-me {min-height: 700px;}
-    .contact-me div {min-height: 700px;}
-
-    .social {min-height: 700px;}
-    .social div {min-height: 700px;}
-
-    .end {min-height: 90px;}
-    .end div {min-height: 90px;}
         
 
     
